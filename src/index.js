@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PrimeiroComponentes from './componentes/PrimeiroComponentes';
-
-ReactDOM.render(<PrimeiroComponentes valor="Bom dia" />,
-document.getElementById('root'));
+import MultiElementos from './componentes/MultiElementos';
+const elemento = document.getElementById('root');
+ReactDOM.render(
+  <MultiElementos />
+  , elemento);
